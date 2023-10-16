@@ -202,8 +202,8 @@ public class wifiinformation extends CordovaPlugin {
 
     // check wifi connection
     if (dhcp_gateway == null || dhcp_gateway.equals(fail)) {
-      callbackContext.error("No valid Gateway/IP address identified");
-      return false;
+      //callbackContext.error("No valid Gateway/IP address identified");
+      //return false;
     }
 //    else if (connectionInfo.getNetworkId() == -1) {
 //      Log.i("----------------", "Test 22: " + connectionInfo.getNetworkId());
